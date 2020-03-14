@@ -10,7 +10,7 @@ function getData(){
     dataType: "text",       
     success: function(response)  
     {
-    data = $.csv.toArrays(response);
+    data = $.txt.toArrays(response);
     displayHTMLTable(data);
     }   
   });
