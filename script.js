@@ -6,7 +6,7 @@ function getData(){
   var data;
   $.ajax({
     type: "GET",  
-    url: "phac.csv",
+    url: "phac.txt",
     dataType: "text",       
     success: function(response)  
     {

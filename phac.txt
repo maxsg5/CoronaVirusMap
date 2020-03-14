@@ -1,0 +1,10 @@
+Province-territory-or-other Number-of-confirmed-cases Number-of-probable-cases
+Ontario					60			0
+New Brunswick				1			0
+British Columbia			53			0
+Alberta					23			0
+Repatriated Canadians			1			0
+Manitoba				1			2	
+Quebec					13			0
+Saskatchewan				0			1
+Total cases				152			3
