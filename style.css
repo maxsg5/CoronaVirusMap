@@ -1,12 +1,35 @@
-
-header{
-    text-align: center;
-    background-color: cadetblue;
+header {
+  text-align: center;
+  background-color: cadetblue;
 }
-img{
-    display: flex;
-    /* align-items: center;
+img {
+  display: flex;
+  /* align-items: center;
     justify-self: center; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.map {
+  display: block;
+  height: 723px;
+  width: 930px;
+  background-image: url(./canada.png);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#bc{
+    padding-top: 525px;
+    padding-left: 90PX;
+
+}
+#ab{
+    padding-bottom: 100px;
+    padding-left: 190PX;
+
+}
+iframe{
+    display: block;
     margin-right: auto;
-    margin-left: auto;
+  margin-left: auto;
 }
