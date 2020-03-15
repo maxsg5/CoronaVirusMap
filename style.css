@@ -13,7 +13,7 @@ img {
   display: block;
   height: 723px;
   width: 930px;
-  background-image: url(./canada.png);
+  background-image: url("./canada.png");
   margin-right: auto;
   margin-left: auto;
 }
