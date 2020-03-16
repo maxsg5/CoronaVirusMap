@@ -3,7 +3,7 @@ let data = '[{"Location":"Repatriated-travellers","confirmed":"4","probable":"0"
 window.onload = function(){
   dataOut = document.getElementById('data');
   let file = this.JSON.parse(data);
-  let outputData = "<table><tbody> <tr> <th></th> <th># of Confirmed Cases</th> <th># of Probable Cases</th></tr>";
+  let outputData = "<table class="+"minimalistBlack"+"><tbody> <tr> <th></th> <th># of Confirmed Cases</th> <th># of Probable Cases</th></tr>";
   for(var x = 0; x <= file.length-1; x++)
   {
     outputData += " <tr><td>"+file[x].Location.toString() +"</td><td>"+file[x].confirmed.toString() +"</td><td>"+file[x].probable.toString() +"</td></tr> ";
