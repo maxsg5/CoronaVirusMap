@@ -6,6 +6,6 @@ window.onload = function(){
 fetch(file).then( r => r.text() )
 .then( t => data += t )
 
-    
+let splitData = data.split();    
     
 }
