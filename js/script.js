@@ -6,7 +6,7 @@ window.onload = function(){
   let outputData = "<table><tbody>";
   for(var x = 0; x < file.length-1; x++)
   {
-    outputData += "<td>"+file[x].Location.toString() +"</td> <br>";
+    outputData += " <tr><td>"+file[x].Location.toString() +"</td></tr> ";
   }
   outputData += "</tbody></table>";
   dataOut.innerHTML= outputData;
