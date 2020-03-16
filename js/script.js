@@ -3,12 +3,13 @@ let data = '[{"Location":"Repatriated-travellers","confirmed":"4","probable":"0"
 window.onload = function(){
   
   let file = this.JSON.parse(data);
-  let outputData;
+  let outputData = "<table><tbody>";
   for(var x = 0; x < file.length-1; x++)
   {
-    outputData += file[x];
+    outputData += "<td>"+file[x].Location.toString() +"</td>";
   }
-  dataOut.innerText= outputData;
+  outputData += "</tbody></table>";
+  dataOut.innerHTML= outputData;
 
 //   let file = "./phac.txt";
 // fetch(file).then( r => r.text() )
