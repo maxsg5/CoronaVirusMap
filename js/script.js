@@ -4,7 +4,7 @@ window.onload = function(){
   
   let file = this.JSON.parse(data);
   let outputData = "<table><tbody> <tr> <th></th> <th># of Confirmed Cases</th> <th># of Probable Cases</th></tr>";
-  for(var x = 0; x < file.length; x++)
+  for(var x = 0; x <= file.length; x++)
   {
     outputData += " <tr><td>"+file[x].Location.toString() +"</td><td>"+file[x].confirmed.toString() +"</td><td>"+file[x].probable.toString() +"</td></tr> ";
   }
