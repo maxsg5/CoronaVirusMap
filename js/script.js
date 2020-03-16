@@ -4,7 +4,7 @@ window.onload = function(){
   
   let file = this.JSON.parse(data);
   let outputData;
-  for(var x = 0; x < myData.length-1; x++)
+  for(var x = 0; x < file.length-1; x++)
   {
     outputData += myData[x];
   }
