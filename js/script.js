@@ -6,7 +6,7 @@ window.onload = function(){
   let outputData;
   for(var x = 0; x < file.length-1; x++)
   {
-    outputData += myData[x];
+    outputData += file[x];
   }
   dataOut.innerText= outputData;
 
